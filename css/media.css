@@ -1,0 +1,89 @@
+/*Extra small device (portrait phone, less then 576px)*/
+@media (max-width: 575.98px) {
+  /*header start*/
+  header {
+    padding: 20px 0 25px;
+}
+.menu ul li a{
+   padding: 0 0px !important;
+}
+
+}
+
+/*small device (portrait phone, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header start*/
+.menu ul li a{
+   padding: 0 0 10px !important;
+}
+
+}
+/*Medium device (tablets, 568px and up )*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*header start*/
+.menu ul li a{
+   padding: 0 0 10px !important;
+}
+
+}
+/*Large device (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*header start*/
+header {
+    padding: 20px 0px;
+}
+
+/*slider start*/
+.b_h1 {
+    font-size: 40px;
+}
+   .b_p {
+      padding-right: 0px;
+}
+
+/*service start*/
+.s_item {
+    margin-top:70px;
+    padding: 55px 0px 35px;
+}
+.s_p {
+    margin-bottom: 30px !important;
+}
+
+/*about start*/
+   .a_image{
+      padding-right: 25px;
+} 
+
+/*choose start*/
+.choose {
+    padding-bottom: 20px !important;
+}
+
+
+}
+
+/*X-Large device (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+/*slider start*/
+   .b_p {
+      padding-right: 100px;
+}
+/*slider end*/
+
+/*about start*/
+   .a_image{
+      padding-right: 25px;
+    }
+/* about end */
+
+
+}
+/*XX-Large device (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
